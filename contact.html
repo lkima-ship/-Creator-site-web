@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Créateur Site Web Web - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">CSW</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Contactez-moi</h1>
+      <p>Une question ? Un projet ? Échangeons ensemble.</p>
+    </section>
+
+    <section class="contact-form-section">
+      <form class="contact-form" action="https://formspree.io/f/mayvqyrp" method="POST">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="name" required placeholder="Votre nom" />
+
+        <label for="email">Adresse email</label>
+        <input type="email" id="email" name="_replyto" required placeholder="Votre email" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Votre message"></textarea>
+
+        <button type="submit" class="btn-primary">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Créateur Site Web Web - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
