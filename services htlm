@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Créateur Site Web Web - Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">CSW</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Mes Services</h1>
+      <p>Des solutions sur mesure pour votre présence en ligne.</p>
+    </section>
+
+    <section class="services-list">
+      <article class="service">
+        <h2>Conception de sites web sur mesure</h2>
+        <p>Design personnalisé adapté à votre image, responsive et optimisé SEO.</p>
+      </article>
+
+      <article class="service">
+        <h2>Développement front-end et back-end</h2>
+        <p>Utilisation des technologies modernes pour un site performant et sécurisé.</p>
+      </article>
+
+      <article class="service">
+        <h2>Maintenance & support technique</h2>
+        <p>Suivi régulier, mises à jour et assistance pour garantir la continuité.</p>
+      </article>
+
+      <article class="service">
+        <h2>Optimisation SEO</h2>
+        <p>Stratégies personnalisées pour améliorer votre visibilité sur les moteurs de recherche.</p>
+      </article>
+
+      <article class="service">
+        <h2>Intégration e-commerce</h2>
+        <p>Création de boutiques en ligne sécurisées avec expérience utilisateur fluide.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Créateur Site Web Web - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
