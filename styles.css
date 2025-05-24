@@ -382,3 +382,51 @@ footer {
   font-size: 1rem;
   color: #555;
 }
+.cta {
+  text-align: center;
+  background-color: #0077cc;
+  color: white;
+  padding: 50px 20px;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #0077cc;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.portfolio-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.03);
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item figcaption {
+  text-align: center;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #e6e6e6;
+}
