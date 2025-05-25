@@ -480,8 +480,32 @@ footer {
   font-weight: bold;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+}body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #4fa3ff;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 .btn-call:hover {
   background-color: #0056b3;
 }
+
