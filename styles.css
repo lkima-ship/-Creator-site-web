@@ -508,4 +508,116 @@ footer {
 .btn-call:hover {
   background-color: #0056b3;
 }
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+.navbar {
+  background: #111;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #4fa3ff;
+}
+
+.hero-overlay {
+  background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 12px;
+  color: white;
+  max-width: 700px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #0077cc;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn-primary:hover {
+  background: #005fa3;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.feature {
+  flex: 1;
+  min-width: 250px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonials {
+  background: #eef3f9;
+  text-align: center;
+}
+.testimonial {
+  max-width: 600px;
+  margin: 20px auto;
+  font-style: italic;
+  color: #444;
+}
+
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
