@@ -277,3 +277,18 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+.section-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.services-illustration,
+.portfolio-illustration {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
