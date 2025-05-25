@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact - Créateur Site Web Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <!-- En-tête et navigation -->
   <header>
     <nav class="navbar">
       <a href="index.html" class="logo">CSW</a>
@@ -20,28 +21,38 @@
     </nav>
   </header>
 
-  <!-- Section de contact avec image -->
+  <!-- Section Contact -->
   <section class="hero-section">
+    <!-- Image illustrative -->
     <img src="image/contact-section.png" alt="Contactez-moi" class="section-image">
     <div class="text-block">
       <h1>Contact</h1>
-      <p>Vous avez un projet ? Un besoin spécifique ? N'hésitez pas à me contacter pour échanger sur vos idées. Réponse rapide garantie.</p>
+      <p>
+        Vous avez un projet web ou une question ?  
+        Remplissez le formulaire ci-dessous, je vous répondrai rapidement avec professionnalisme.
+      </p>
     </div>
   </section>
 
   <!-- Formulaire de contact -->
   <section class="contact-form">
     <form action="https://formspree.io/f/mnqegzzr" method="POST">
-      <input type="text" name="name" placeholder="Votre nom" required>
-      <input type="email" name="email" placeholder="Votre email" required>
-      <textarea name="message" placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
+      <label for="name">Nom</label>
+      <input id="name" type="text" name="name" placeholder="Votre nom" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" placeholder="Votre email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+
+      <button type="submit" class="btn-primary">Envoyer</button>
     </form>
   </section>
 
+  <!-- Pied de page -->
   <footer>
     <p>© 2025 Créateur Site Web Web - Tous droits réservés</p>
   </footer>
-
 </body>
 </html>
