@@ -1,155 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Créateur Site Web Web</title>
-  <style>
-    body 
-    <nav style="background: #222; padding: 15px; text-align: center;">
-  <a href="index.html" style="color: white; margin: 0 10px; text-decoration: none;">Accueil</a>
-  <a href="about.html" style="color: white; margin: 0 10px; text-decoration: none;">À propos</a>
-  <a href="services.html" style="color: white; margin: 0 10px; text-decoration: none;">Services</a>
-  <a href="portfolio.html" style="color: white; margin: 0 10px; text-decoration: none;">Portfolio</a>
-  <a href="documentation.html" style="color: white; margin: 0 10px; text-decoration: none;">Documentation</a>
-  <a href="contact.html" style="color: white; margin: 0 10px; text-decoration: none;">Contact</a>
-</nav>
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      background-color: #fff;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    .banner {
-      position: relative;
-      text-align: center;
-      color: white;
-    }
-    .banner img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .banner-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(0, 0, 0, 0.6);
-      padding: 20px 40px;
-      border-radius: 10px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      border-radius: 8px;
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    form button {
-      padding: 10px 20px;
-      background: #0077cc;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    footer {
-      background-color: #222;
-      color: #fff;
-      padding: 30px 0;
-      text-align: center;
-    }
-    footer a {
-      color: #4fa3ff;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Créateur Site Web Web - Accueil</title>
+  <meta name="description" content="Création de sites web sur-mesure, modernes et responsive. Spécialiste en design, développement, SEO et accompagnement professionnel.">
+  <meta name="keywords" content="création site web, développeur web, site vitrine, site e-commerce, responsive design, SEO, développeur freelance">
+  <meta name="author" content="Créateur Site Web Web">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Créateur Site Web Web">
+  <meta property="og:description" content="Des sites web élégants, performants et adaptés à vos besoins.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lkima-ship.github.io/-Creator-site-web/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Créateur Site Web Web">
+  <meta name="twitter:description" content="Création de sites web modernes, responsives et bien référencés.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80">
+
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-<!-- Bannière -->
-<section class="banner">
-  <img src="https://source.unsplash.com/1600x600/?technology,webdesign" alt="Bannière">
-  <div class="banner-text">
-    <h1>Créateur de Sites Web</h1>
-    <p>Modernes, efficaces et adaptés à vos besoins</p>
-  </div>
-</section>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">CSW</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- Documentation -->
-<section>
-  <h2 style="text-align: center;">Documentation</h2>
-  <div style="max-width: 900px; margin: auto;">
-    <h3>Nos Services</h3>
-    <p>Nous créons des sites vitrines, portfolios, pages de contact et galeries modernes, optimisés pour tous les écrans (ordinateurs, tablettes, mobiles).</p>
-    <h3>Technologies utilisées</h3>
-    <ul>
-      <li>HTML5 / CSS3</li>
-      <li>Responsive Design</li>
-      <li>GitHub Pages pour l’hébergement gratuit</li>
-    </ul>
-    <h3>FAQ</h3>
-    <p><strong>Q :</strong> Puis-je modifier le site moi-même ?<br>
-    <strong>R :</strong> Oui ! Le code est simple et facile à personnaliser sur GitHub.</p>
-    <p><strong>Q :</strong> Le site est-il visible sur mobile ?<br>
-    <strong>R :</strong> Absolument, il s’adapte à tous les appareils.</p>
-  </div>
-</section>
+  <main>
+    <section class="hero-overlay">
+      <div class="overlay">
+        <h1>Créer votre présence digitale avec élégance</h1>
+        <p>Design sur-mesure, performance et expérience utilisateur optimisée.</p>
+        <a href="services.html" class="btn-primary">Découvrez mes services</a>
+      </div>
+    </section>
 
-<!-- Galerie -->
-<section>
-  <h2 style="text-align: center;">Galerie de Réalisations</h2>
-  <div class="gallery">
-    <img src="https://source.unsplash.com/300x200/?website" alt="Projet 1">
-    <img src="https://source.unsplash.com/300x200/?webdesign" alt="Projet 2">
-    <img src="https://source.unsplash.com/300x200/?code" alt="Projet 3">
-    <img src="https://source.unsplash.com/300x200/?responsive" alt="Projet 4">
-  </div>
-</section>
+    <section class="intro">
+      <h2>Pourquoi choisir un créateur spécialisé ?</h2>
+      <p>
+        Votre site web est votre vitrine la plus précieuse. Avec une expertise poussée en design moderne,
+        ergonomie et technologies web récentes, je vous accompagne pour un site performant, beau et efficace.
+      </p>
+    </section>
 
-<!-- Formulaire de contact -->
-<section style="background-color: #f8f8f8;">
-  <h2 style="text-align: center;">Contactez-Nous</h2>
-  <form action="https://formspree.io/f/mnqegzjy" method="POST" style="max-width: 600px; margin: auto;">
-    <label>Nom</label>
-    <input type="text" name="name" required>
-    <label>Email</label>
-    <input type="email" name="email" required>
-    <label>Message</label>
-    <textarea name="message" rows="5" required></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
-</section>
+    <section class="features">
+      <div class="feature">
+        <h3>Design Unique</h3>
+        <p>Des créations exclusives, adaptées à votre identité.</p>
+      </div>
+      <div class="feature">
+        <h3>Responsive & Rapide</h3>
+        <p>Un rendu parfait sur tous les écrans, avec un chargement optimisé.</p>
+      </div>
+      <div class="feature">
+        <h3>Support & Accompagnement</h3>
+        <p>Un suivi personnalisé pour que votre site évolue avec vos besoins.</p>
+      </div>
+    </section>
 
-<!-- Pied de page -->
-<footer>
-  <p>&copy; 2025 Créateur Site Web Web. Tous droits réservés.</p>
-  <p>Contact : <a href="mailto:superside@outlook.fr">superside@outlook.fr</a> | Tel : <a href="tel:0606988417">0606988417</a></p>
-  <p>Suivez-nous :
-    <a href="#">Facebook</a> |
-    <a href="#">Instagram</a>
-  </p>
-</footer>
+    <section class="testimonials">
+      <h2>Ils m'ont fait confiance</h2>
+      <div class="testimonial">
+        <p>"Service rapide, design moderne et excellent suivi. Je recommande !"</p>
+        <strong>— Sarah L.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Mon site est superbe et fonctionnel sur mobile. Parfait !"</p>
+        <strong>— Ali M.</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Créateur Site Web Web - Tous droits réservés</p>
+  </footer>
 
 </body>
 </html>
