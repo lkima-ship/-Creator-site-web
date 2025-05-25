@@ -648,4 +648,25 @@ footer {
   color: #ddd;
   max-width: 700px;
 }
+.sophisticated-portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sophisticated-portfolio img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sophisticated-portfolio h2 {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+.sophisticated-portfolio p {
+  color: #ccc;
+  max-width: 700px;
+  margin: auto;
+}
 
