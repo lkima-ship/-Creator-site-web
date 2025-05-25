@@ -209,3 +209,58 @@ footer {
     font-size: 1.5rem;
   }
 }
+.hero {
+  background: linear-gradient(to right, #0f172a, #1e3a8a);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 0 0 15px 15px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-cta {
+  background: #3b82f6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn-cta:hover {
+  background: #2563eb;
+}
+.testimonials {
+  background: #f1f5f9;
+  padding: 2.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  max-width: 700px;
+  border-left: 4px solid #3b82f6;
+  border-radius: 8px;
+  color: #374151;
+}
