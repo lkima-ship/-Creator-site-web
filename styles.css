@@ -292,3 +292,28 @@ footer {
   background-color: #ffffff;
   text-align: center;
 }
+.section-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.about-section,
+.contact-section,
+.doc-section {
+  padding: 60px 20px;
+  background-color: #f4f6f9;
+  text-align: center;
+}
+
+.about-section p,
+.contact-section p,
+.doc-section p {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  font-size: 1.15em;
+  color: #333;
+}
