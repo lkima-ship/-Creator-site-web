@@ -377,3 +377,38 @@ footer {
   font-size: 1.1rem;
   color: #ccc;
 }
+.hero-banner {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border-bottom: 4px solid #ff6f00;
+}
+
+.hero-header,
+.services-header,
+.documentation-header,
+.about-header,
+.contact-header {
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.hero-header h1,
+.services-header h1,
+.documentation-header h1,
+.about-header h1,
+.contact-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.section-text p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #ccc;
+}
