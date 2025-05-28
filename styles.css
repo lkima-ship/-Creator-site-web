@@ -1,467 +1,137 @@
-<style>
-/* Base */
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-/* Header */
-header {
-  background-color: #0d1b2a;
-  color: white;
-  padding: 10px 0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f4a261;
-  text-decoration: none;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover,
-.nav-links a.active {
-  color: #f4a261;
-}
-
-/* Hero */
-.hero-overlay {
-  background: url('image/B17FD74F-A57F-4E0C-9A19-E77A2D1029C4.png') center/cover no-repeat;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-  position: relative;
-}
-
-.hero-overlay .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 40px;
-  display: inline-block;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.hero img {
-  max-width: 90%;
-  height: auto;
-  margin-top: 20px;
-}
-
-.sophisticated-hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 60px 20px;
-  background-color: #e9ecef;
-}
-
-.sophisticated-hero .hero-image {
-  flex: 1;
-  text-align: center;
-}
-
-.sophisticated-hero .hero-image img {
-  max-width: 100%;
-  height: auto;
-}
-
-.sophisticated-hero .hero-text {
-  flex: 1;
-  padding: 20px;
-}
-
-/* Sections */
-section {
-  padding: 40px 20px;
-}
-
-.features {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #f1f1f1;
-}
-
-.feature {
-  flex: 1;
-  max-width: 300px;
-  margin: 20px;
-  background: white;
-  padding: 20px;
-  border-left: 5px solid #264653;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.testimonials {
-  background-color: #f8f8f8;
-  padding: 40px 20px;
-}
-
-.testimonials blockquote {
-  margin: 20px auto;
-  max-width: 600px;
-  font-style: italic;
-  position: relative;
-}
-
-.testimonials blockquote footer {
-  margin-top: 10px;
-  font-weight: bold;
-  color: #264653;
-}
-
-/* Buttons */
-.btn-primary, .btn-cta {
-  display: inline-block;
-  background-color: #f4a261;
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
-.btn-primary:hover, .btn-cta:hover {
-  background-color: #e76f51;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  background-color: #0d1b2a;
-  color: white;
-  padding: 20px;
-}
-</style>
-<style>
 /* =========================
-   Fichier CSS - Créateur Site Web Web
-   Design moderne, professionnel et responsive
-   Auteur : LKIMA Dev
-   ========================= */
-
-/* ----- Général ----- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+   Styles généraux
+========================= */
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f4f4f4;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
   color: #333;
-  line-height: 1.6;
 }
 
-/* ----- Typographie globale ----- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  color: #1e1e1e;
+  margin: 0.5em 0;
 }
 
-p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-/* ----- Navigation ----- */
+/* =========================
+   Barre de navigation
+========================= */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
-  color: #fff;
-  padding: 1rem 2rem;
+  background-color: #111;
+  padding: 1em 2em;
 }
 
-.logo {
-  font-size: 1.8rem;
+.navbar .logo {
+  color: #00aaff;
+  font-size: 1.5em;
   font-weight: bold;
-  text-decoration: none;
-  color: #ffa500;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.5em;
 }
 
 .nav-links li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-links li a:hover,
 .nav-links li a.active {
-  color: #ffa500;
+  color: #ffaa00;
 }
 
-/* ----- Hero Section ----- */
-.hero-overlay {
-  background: url('image/page3.png') no-repeat center center/cover;
-  color: #fff;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+/* =========================
+   Section bannière "À propos"
+========================= */
+.about-header {
   position: relative;
-}
-
-.hero-overlay .overlay {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 3rem;
-  border-radius: 10px;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.hero-image {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-/* ----- Sections ----- */
-section {
-  padding: 4rem 2rem;
-}
-
-.intro, .features, .testimonials {
-  max-width: 1100px;
-  margin: auto;
-}
-
-.features {
-  display: flex;
-  gap: 2rem;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.feature {
-  flex: 1;
-  min-width: 250px;
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.feature:hover {
-  transform: translateY(-5px);
-}
-
-.testimonials blockquote {
-  font-style: italic;
-  background: #fff;
-  border-left: 5px solid #ffa500;
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
-
-/* ----- Boutons ----- */
-.btn-primary,
-.btn-cta {
-  display: inline-block;
-  background: #ffa500;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-.btn-primary:hover,
-.btn-cta:hover {
-  background: #e69500;
-}
-
-/* ----- Footer ----- */
-footer {
-  background: #000;
-  color: #fff;
   text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 4rem;
+  color: white;
 }
 
-/* ----- Responsive ----- */
-@media (max-width: 768px) {
-  .features {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-overlay .overlay {
-    padding: 2rem;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-}
-</style>
 .hero-banner {
   width: 100%;
-  height: auto;
-  max-height: 500px;
+  height: 300px;
   object-fit: cover;
-  border-bottom: 5px solid #ff6f00;
+  display: block;
 }
 
-.hero-header, .services-header, .documentation-header {
+.section-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1.5em 2em;
+  border-radius: 10px;
   text-align: center;
-  background-color: #0a0a0a;
-  color: white;
-  padding-bottom: 40px;
 }
 
-.hero-header h1,
-.services-header h1,
-.documentation-header h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  margin-top: 20px;
-}
-
-.section-text p,
-.hero-header p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  color: #ccc;
-}
-.hero-banner {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: cover;
-  border-bottom: 4px solid #ff6f00;
-}
-
-.hero-header,
-.services-header,
-.documentation-header,
-.about-header,
-.contact-header {
-  text-align: center;
-  background-color: #0a0a0a;
-  color: white;
-  padding-bottom: 40px;
-}
-
-.hero-header h1,
-.services-header h1,
-.documentation-header h1,
-.about-header h1,
-.contact-header h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  margin-top: 20px;
+.section-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #ffaa00;
 }
 
 .section-text p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  color: #ccc;
+  font-size: 1.2em;
+  margin: 0;
 }
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>À propos - Créateur Site Web Web</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- En-tête et navigation -->
-  <header>
-    <nav class="navbar">
-      <a href="index.html" class="logo">CSW</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html" class="active">À propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Section principale À propos -->
-  <main>
-    <!-- Bannière avec image et texte -->
-    <section class="about-header">
-      <img src="image/about-section.png" alt="À propos" class="hero-banner">
-      <div class="section-text">
-        <h1>À propos de moi</h1>
-        <p>Développeur passionné créant des sites uniques et performants.</p>
-      </div>
-    </section>
+/* =========================
+   Section contenu "À propos"
+========================= */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding: 4em 2em;
+  background-color: #fff;
+}
 
-    <!-- Présentation détaillée avec photo -->
-    <section class="about-content">
-      <img src="image/photo33.png" alt="Présentation professionnelle" class="section-image">
-      <div class="text-block">
-        <h2>Mon parcours</h2>
-        <p>
-          Développeur web passionné, j’élabore des sites sur-mesure alliant design moderne, performance
-          et ergonomie. Mon approche rigoureuse garantit un résultat professionnel, fiable et évolutif.
-        </p>
-      </div>
-    </section>
-  </main>
+.section-image {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-  <!-- Pied de page -->
-  <footer>
-    <p>© 2025 Développeur Site Web - Tous droits réservés</p>
-  </footer>
-</body>
-</html>
+.text-block {
+  max-width: 600px;
+}
+
+.text-block h2 {
+  color: #00aaff;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.text-block p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* =========================
+   Pied de page
+========================= */
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #111;
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 2em;
+}
