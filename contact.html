@@ -2,15 +2,26 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Contact - Créateur Site Web Web</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Saidi Web</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .contact-info-box {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    .contact-info-box h2 { color: #00aaff; margin-bottom: 15px; }
+    .contact-info-box p { font-size: 1.2rem; margin: 10px 0; }
+  </style>
 </head>
 <body>
-  <!-- En-tête et navigation -->
   <header>
     <nav class="navbar">
-      <a href="index.html" class="logo">CSW</a>
+      <a href="index.html" class="logo">SAIDI WEB</a>
       <ul class="nav-links">
         <li><a href="index.html">Accueil</a></li>
         <li><a href="services.html">Services</a></li>
@@ -21,45 +32,33 @@
     </nav>
   </header>
 
-  <!-- Section Contact -->
- <section class="contact-header">
-  <img src="image/contact-section.png.PNG" alt="Contact" class="hero-banner" />
-  <div class="section-text">
-    <h1>Contactez-moi</h1>
-    <p>Un projet ? Une question ? Je suis à votre écoute.</p>
-  </div>
-</section>
-  <section class="hero-section">
-    <!-- Image illustrative -->
-    <img src="image/contact-section.png" alt="Contactez-moi" class="section-image">
-    <div class="text-block">
-      <h1>Contact</h1>
-      <p>
-        Vous avez un projet web ou une question ?  
-        Remplissez le formulaire ci-dessous, je vous répondrai rapidement avec professionnalisme.
-      </p>
-    </div>
-  </section>
+  <main style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
+    <section class="contact-info-box">
+      <h2>Discutons de votre projet</h2>
+      <p>Prêt à passer à l'étape supérieure ? Contactez-moi directement :</p>
+      <p><strong>📞 Téléphone :</strong> 06 06 98 84 17</p>
+      <p><strong>✉️ Email :</strong> mside243@gmail.com</p>
+    </section>
 
-  <!-- Formulaire de contact -->
-  <section class="contact-form">
-    <form action="https://formspree.io/f/mnqegzzr" method="POST">
-      <label for="name">Nom</label>
-      <input id="name" type="text" name="name" placeholder="Votre nom" required>
+    <section class="contact-form">
+      <img src="https://static.prod-images.emergentagent.com/jobs/cd4735aa-3456-44a6-b8b6-99410001293e/images/c5d62fdced53a9da0491ae3f34d4dfc48c3aaead7a628e3672859ffffe3531a0.jpeg" alt="Contact" style="width:100%; border-radius:10px; margin-bottom:30px;">
+      <form action="https://formspree.io/f/mnqegzzr" method="POST">
+        <label for="name">Nom</label>
+        <input id="name" type="text" name="name" placeholder="Votre nom" required>
 
-      <label for="email">Email</label>
-      <input id="email" type="email" name="email" placeholder="Votre email" required>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Votre email" required>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Parlez-moi de votre projet..." required></textarea>
 
-      <button type="submit" class="btn-primary">Envoyer</button>
-    </form>
-  </section>
+        <button type="submit" class="btn-primary" style="background:#00aaff; color:white; border:none; padding:15px 30px; border-radius:5px; cursor:pointer; font-weight:bold;">Envoyer le message</button>
+      </form>
+    </section>
+  </main>
 
-  <!-- Pied de page -->
   <footer>
-    <p>© 2025 Créateur Site Web Web - Tous droits réservés</p>
+    <p>© 2026 Saidi Web - Tous droits réservés</p>
   </footer>
 </body>
 </html>
